@@ -1,4 +1,4 @@
-
+array = [1,2,3]
 def my_each(array)
   # code here
   i = 0 
@@ -8,4 +8,4 @@ def my_each(array)
 end
 end
 
-my_each([1,2,3]) {|i| return i} 
+my_each(array) {|i| return i} 
